@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe um numero: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <Button
+        android:id="@+id/btnApresentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apresentar"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <TextView
+        android:id="@+id/txtImparPar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O número é par ou impar: "
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <TextView
+        android:id="@+id/txtDobro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O dobro do numero informado é: "
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <TextView
+        android:id="@+id/txtRaiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A raiz quadrada do numero informado é: "
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
